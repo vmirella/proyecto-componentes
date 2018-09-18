@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Text = (props) => {
 console.log(props.arraysOfNumber);
-let multiply = props.multiply;
+//let multiply = props.multiply;
   return (
 
     <div>
@@ -17,7 +17,7 @@ let multiply = props.multiply;
       <p>{props.boolean}</p>
       <p>{props.objectWithInfo.key}</p>
       <p>{props.objectWithInfo.key2}</p>
-      <p>{multiply}</p>
+      <p>{props.multiply(5)}</p>
       <p>{props.title}</p>
     </div>
   )
