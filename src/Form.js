@@ -29,7 +29,8 @@ class Form extends React.Component {
         <input type="email" placeholder="email" />
         <input type="password" placeholder="Password" />
         <input type="submit" />
-      </form>
+        </form>
+        <Header email={this.state.email}/>
       </div>
     )
   }
