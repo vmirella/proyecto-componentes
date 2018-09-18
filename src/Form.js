@@ -30,7 +30,7 @@ class Form extends React.Component {
         <input type="password" placeholder="Password" />
         <input type="submit" />
         </form>
-        <Header email={this.state.email}/>
+        <Header email={this.state.email} usuario={this.state.usuario}/>
       </div>
     )
   }

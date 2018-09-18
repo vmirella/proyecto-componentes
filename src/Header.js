@@ -8,7 +8,7 @@ class Header extends React.Component {
   render () {
     return(
     <div>
-      <label>Mi App</label>
+      <label>{this.props.usuario}</label>
       <label>{this.props.email}</label>
       <img src=""></img>
     </div>
